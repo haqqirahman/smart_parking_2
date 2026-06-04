@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Realtime Smart Parking YOLOv8</title>
+</head>
+<body>
+    <h1>Realtime Deteksi Lahan Parkir dengan <i>YOLOv8</i></h1>
+    <p>Stream dari kamera (slot: total, kosong, terisi ditampilkan di atas video).</p>
+
+    <img src="{{ url_for('video_feed') }}" width="800" alt="Video Stream">
+
+    <p>Jika video tidak muncul, cek:</p>
+    <ul>
+        <li>Kamera sudah terhubung</li>
+        <li>Index kamera di <code>cv2.VideoCapture(0)</code> (coba ganti 1,2,...)</li>
+        <li>Model <code>best.pt</code> sudah berada di folder yang benar</li>
+    </ul>
+</body>
+</html>

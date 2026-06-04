@@ -1,0 +1,5 @@
+C:\xampp\htdocs\smart_parking_2\analyze_parking.py:31: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  df = pd.read_sql(query, db)
+[WARNING] Tidak ada data di tabel parking_history. Membuat grafik kosong...
+[OK] Grafik kosong berhasil dibuat di folder static/analytics/
+Return code: 0

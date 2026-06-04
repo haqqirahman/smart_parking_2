@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+env310/
+
+# YOLO Models
+*.pt
+*.onnx
+runs/
+runs_web/
+
+# Logs
+*.log
+python_log.txt
+python_exec_log.txt
+stream_log.txt
+
+# Uploads
+uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Database Backup
+*.sql.bak
+
+# Environment Variables
+.env
+
+# XAMPP
+xampp-control.ini
+
+# Generated Files
+*.pdf
